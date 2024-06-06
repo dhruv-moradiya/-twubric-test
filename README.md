@@ -1,8 +1,8 @@
-# React Sorting and Filtering App
+# 🚀 React Sorting and Filtering App
 
 This is a React application that allows users to sort and filter data displayed from a JSON file. The application includes components for sorting data based on different criteria, filtering data based on date ranges, and deleting individual user data.
 
-## Features
+## Features 🌟
 
 - **Sorting:** Utilizes a Button Group component to sort the data based on different criteria such as Friends, Influence and Chirpiness.
 
@@ -24,7 +24,7 @@ This is a React application that allows users to sort and filter data displayed 
 
 5. Open http://localhost:5173 to view the app in your browser.
 
-## Usage
+## Usage 🛠️
 
 1. Upon launching the application, you'll see a list of user data loaded from a JSON file.
 
