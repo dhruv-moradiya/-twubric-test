@@ -16,6 +16,6 @@
 
 @layer components {
   .button {
-    @apply py-1 px-2 text-xs rounded-md duration-150;
+    @apply px-6 py-1 rounded-md font-semibold duration-150 capitalize;
   }
 }

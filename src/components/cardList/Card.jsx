@@ -1,4 +1,3 @@
-import React from "react";
 import { getFormattedDate } from "../../service/helpers";
 import { useAppContext } from "../../context/AppContext";
 

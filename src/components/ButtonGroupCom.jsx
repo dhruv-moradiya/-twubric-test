@@ -24,7 +24,6 @@ function ButtonGroupCom() {
     }));
     setActiveButton(item)
   }
-  console.log(buttonState)
 
   function removeAllFilters() {
     setData([...items])
@@ -47,7 +46,7 @@ function ButtonGroupCom() {
           {button_name.map((item, index) => (
             <button
               key={index}
-              className={`px-6 py-1 rounded-md bg-slate-200 text-black font-semibold duration-150 hover:shadow hover:bg-slate-300 capitalize`}
+              className="button bg-slate-200 text-black hover:shadow hover:bg-slate-300"
               onClick={() => handleChange(item)}
               disabled={activeButton && activeButton !== item}
             >
@@ -61,7 +60,7 @@ function ButtonGroupCom() {
               </span>
             </button>
           ))}
-          <button className="px-6 py-1 rounded-md font-semibold duration-150 bg-red-500 hover:bg-red-600 text-white hover:shadow" onClick={removeAllFilters}>
+          <button className="button bg-red-500 hover:bg-red-600 text-white hover:shadow" onClick={removeAllFilters}>
             Remove
           </button>
         </div>
@@ -71,14 +70,3 @@ function ButtonGroupCom() {
 }
 
 export default ButtonGroupCom;
-
-// function handleChange(item) {
-//   if (buttonState[item] === "asd") {
-//     const temp = [...data]
-//     temp.sort(des)
-//     setData(temp)
-//     setButtonState((prev) => ({
-//       ...prev, [item]: "des"
-//     }));
-//   }
-// }

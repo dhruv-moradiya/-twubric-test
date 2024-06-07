@@ -63,7 +63,7 @@ function DatePicker() {
           />
         </div>
         <div className="flex items-center justify-center">
-          <button className="py-1 px-5 font-semibold text-white text-[13.5px] rounded-md bg-yellow-500 h-fit">
+          <button className="button text-white text-[13.5px] rounded-md bg-yellow-500 hover:bg-yellow-600 shadow h-fit">
             Filter
           </button>
         </div>
